@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.showcase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:orangered;  
+}
+.video-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.video-container video{
+    position: absolute;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content{
+    z-index: +1;
+    text-align: center;
+}
+.content h1{
+    font-size: 60px;
+}
+.content a{
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+}
+.mid-section{
+    background-color: darkkhaki;
+    margin-top: 70px;
+}
+.mid-section h1{
+ color: brown;
+ font-size: 40px;
+ text-decoration: underline;
+ margin-bottom: 10px;
+}
+.mid-section p{
+    margin-left: 10px;
+}
+.mid-section p::first-letter{
+    color: green;
+    font-size: 50px;
+    font-style: italic;
+}
+.mid-section p img{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30%;
+    border: 2px solid black;
+}
+.final-section{
+    background-color: darkkhaki;
+    margin-top: 50px;
+}
+.final-section h1{
+    color: brown;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.final-section p{
+    margin-left: 10px;
+}
+.final-section p::first-letter{
+    color: green;
+    font-size: 50px;
+    font-style: italic;
+}
+.final-section p img{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30%;
+    border: 2px solid black;
+}
+.foot{
+    text-align: center;
+}
+.division a{
+    color: orangered;
+}
